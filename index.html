@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5</title>
+        
+        <style>
+            body{
+                
+                background-image: url(img/20180221.png) ;
+                
+               
+            }
+            #body-imaginario{
+                
+                font-family: "Arial","verdana","san-serif";
+                margin: auto;
+                width: 940px;
+                text-align: justify;
+                border: 2px solid black;
+                padding-left: 10px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+                padding-top: 20px;
+                display: none;
+                background-color: white;
+            }
+            h1,h2{
+                
+                border: 2px solid black;
+                padding-left: 20px;
+                margin-top: 10px;
+                margin-right: 20px;
+                margin-bottom: 10px;
+                border-color: #000000;
+            }
+            
+            a{
+                text-decoration: none;
+                color: #000000;  
+            }
+            
+            .menu-ancora ul li{
+                display: inline;
+                border: 1px solid black;
+                background-color: white;
+                border-radius: 5px;
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 30px;
+                text-decoration: none;
+                width: 150px;
+                box-shadow: 0px 5px lightgrey;
+                
+            }
+            
+            ul li:hover{background-color: black;}
+            
+            a:hover{color:white;}
+            
+        </style>
+
+    </head>
+    
+    <body onLoad="setTimeout(carregar, 4000);">
+
+    <script>
+
+        function carregar() {
+        document.getElementById("body-imaginario").style.display="block";
+            }
+    </script>
+        
+        <div id="body-imaginario">
+
+            <header class="menu-ancora">
+                <ul>
+                    <a href="#sobre"><li>Sobre</li>
+                    <a href="#objetivo"><li>Objetivo</li></a>
+                    <a href="#formacao"><li>Formação</li></a>
+                    <a href="#idioma"><li>Idioma</li></a>
+                    <a href="#experiencia"><li>Experências</li></a>
+                    </ul>
+
+            </header>
+            <h1 id="sobre">FERNANDO SILVA DOS SANTOS</h1>
+            <p>Endereço: TRAVESSA GRANDE AMOR Nº109 - 05763400<br>
+            Contato: (11) 9-88029355<br>
+            Idade: 20 anos
+            Estado civil: solteiro<br>
+            E-mail: fernandoss_2012@outlook.com</p>
+
+
+
+            <h2 id="objetivo">OBJETIVO</h2>
+            <p>Estágio em desenvolvimento front-end</p>
+
+
+
+            <h2 id="formacao">FORMAÇÃO ACADÊMICA</h2>
+
+            <p>Ensino Médio concluído:Escola “E.E.PROF.DR CLOVIS DE OLIVEIRA”</p>
+
+            <p>Curso de Administração no SENAC (Centro de Integração Empresa-Escola) – 04/2014 até 04/2015</p>
+            <p>Gestão de pessoas, gestão administrativa e financeira, contabilidade, gestão da produção, gestão de marketing, noções sobre ofertas e demanda, classificação de materiais.</p>
+
+            <p>Curso de JavaScript na escola online(UDEMY) – Duração 32 horas – Concluído em 05/2018</p>
+            <p>Curso de Jquery na escola online(UDEMY) – Duração 12,5 horas – Concluído em 05/2018</p>
+            <p>Cursando Ensino Superior: 2017 - Curso de analise e desenvolvimento de sistema na Universidade&nbsp;Paulista (UNIP)</p>
+
+            <h2 id="idioma">IDIOMAS</h2>
+
+            <p>Inglês Básico – 2 anos na microcamp</p>
+
+
+            <h2 id="experiencia">EXPERIÊNCIAS PROFISSIONAIS:</h2>
+
+            <p>LOJAS ESKALA COMERCIO DE TECIDOS E CONFECÇÕES LTDA.	04/2014 – 09/2018 - Empresa de comercio e varejo</p>
+            <p>Trabalho no ti – sistemas na área de teste, desenvolvendo planos de testes. </p>
+            <p>Abrindo chamados dos sistemas (JIRA)</p>
+            <p>Suporte</p>
+            <p>Atualizando casos de usos</p>
+            <p>Criação de protótipos dos sistemas (Microsoft Visio 2008) </p>
+
+    </div>
+
+        
+    </body>
+</html>
